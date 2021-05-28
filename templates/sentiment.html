@@ -1,0 +1,24 @@
+{% extends 'index.html' %}
+{% block title %}Sentiment Analysis{% endblock title %}
+{% block body %}
+
+<header class="text-center text-white masthead" style="background:url('bg-masthead.jpg')no-repeat center center;background-size:cover;">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-9 mx-auto position-relative">
+                <h1 class="mb-5">Sentiment Analysis</h1>
+            </div>
+            <div class="col-md-10 col-lg-8 col-xl-7 mx-auto position-relative">
+                <form>
+                    <div class="row">
+                        <div class="col-12 col-md-9 mb-2 mb-md-0"><input type="email" class="form-control form-control-lg" placeholder="Enter YouTube video link here..." /></div>
+                        <div class="col-12 col-md-3"><button class="btn btn-dark btn-lg" type="submit">Go</button></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</header>
+
+{% endblock body %}
